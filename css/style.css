@@ -1,0 +1,239 @@
+/* * body section */
+body {
+	padding: 0;
+	margin: 0;
+}
+/* * general section */
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+.container {
+	width: 1231px;
+	margin: 0 auto;
+}
+.wrapper	{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.title_h2 {
+	font-size: 30px;
+	letter-spacing: 0.6px;
+	text-align: center;
+}	
+
+/* * header section */
+header {
+	background: rgba(4,235,239,1);
+	background: -moz-linear-gradient(-45deg, rgba(4,235,239,1) 0%, rgba(3,120,253,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(4,235,239,1)), color-stop(100%, rgba(3,120,253,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(4,235,239,1) 0%, rgba(3,120,253,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(4,235,239,1) 0%, rgba(3,120,253,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(4,235,239,1) 0%, rgba(3,120,253,1) 100%);
+	background: linear-gradient(135deg, rgba(4,235,239,1) 0%, rgba(3,120,253,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04ebef', endColorstr='#0378fd', GradientType=1 );
+	padding-top: 64px;
+	padding-bottom: 72px;
+	color: #fff;
+}
+
+.dream_h1 {
+	font-size: 37px;
+	width: 560px;
+	letter-spacing: 0.74px;
+	line-height: 49px;
+}
+.dream_h1 span {
+	font-size: 59px;
+	letter-spacing: 1.18px;
+	line-height: 78px;
+}
+.dream_p {
+	width: 400px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0.32px;
+	line-height: 1.77em;
+	margin-top: 22px;
+	margin-bottom: 36px;
+}
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: #2e2a1b;
+	background: #ffd429;
+	display: block;
+	width: 222px;
+	padding: 19px 0;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 0.3px;
+	transition: all 0.5s case;
+}
+.btn:hover {
+	background: #f8cb15;
+}
+.desktop {
+	margin-top: 5px;
+}
+/* * section one */
+.section_one {
+	padding-top: 102px;
+	padding-bottom: 121px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	color: #201b2d;
+}
+.title_h2_s1 {
+	padding-right: 60px;
+	
+
+}
+.pictures {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 81px;
+	text-align: center;
+}
+.picture {
+	width: 289px;
+	height: 165px;
+	background: url('../img/iconleft.jpg') no-repeat top;
+	padding-top: 90px;
+}
+.picture_title {
+	font-size: 19px;
+	letter-spacing: 0.38px;
+}
+.picture_text {
+	font-weight: 400;
+	font-size: 15px;
+	letter-spacing: 0.3px;
+	margin-top: 18px;
+}
+.picture_middle {
+	background: url('../img/iconmiddle.jpg') no-repeat top;
+	width: 289px;
+	height: 170px;
+}
+.picture_right {
+	background: url('../img/iconright.jpg') no-repeat top;
+	width: 289px;
+	height: 170px;
+}
+/* * section two */
+.section_two {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	background: #ecf3f8;
+	padding-top: 104px;
+	padding-bottom: 106px;
+}
+.form {
+	margin-top: 57px;
+}
+input {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	opacity: 0.55;
+	width: 343px;
+	height: 48px;
+	border-radius: 3px;
+	border: 1px solid #bbbbbb;
+	padding-left: 25px;
+	margin: 0 443px 15px 443px;
+}
+.btn_2 {
+	border: 0;
+	width: 343px;
+	margin: 0 443px;
+	cursor: pointer;
+}
+/* * footer section */
+footer{
+	padding: 48px 0px 54px 0px;
+	background-color: #164d7a;
+}
+.credits {
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 0.28px;
+	text-align: center;
+}
+/* * responsive */
+
+/* * 992px - 1200px */
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+		margin: 0 auto;
+	}
+	.desktop {
+		width: 441px;
+		height: 441px;
+	}
+	form {
+		padding: 50px;
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+	}
+	input {
+		margin: 5px;
+	}
+	.btn_2 {
+		margin: 0 auto;
+	}
+}
+/* * 768px - 992px */
+
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.dream {
+		width: 90%;
+	}
+	.dream_h1 {
+		width: auto;
+	}
+	.dream_p {
+		width: auto;
+	}
+}
+/* * 576px - 768px */
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.dream {
+		width: 90%;
+	}
+	.dream_h1 {
+		width: auto;
+	}
+	.dream_p {
+		width: auto;
+	}
+}
+/* * 0px - 576px */
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+}
